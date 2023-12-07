@@ -1,0 +1,21 @@
+Get http://localhost:4000/api/clientes
+
+###
+POST http://localhost:4000/api/clientes
+Content-Type: application/json
+
+{
+    "nombre": "marcos v",
+    "correo": "marc9@hotmail.com"
+}
+
+###
+
+PUT http://localhost:4000/api/clientes/6151302b8296c54adaa1958b
+Content-Type: application/json
+
+{
+    "correo": "anaf@hotmail.com"
+}
+###
+DELETE http://localhost:4000/api/clientes/61514ac159b0618d2666e31e
